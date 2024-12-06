@@ -5,17 +5,40 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #171717;
+  --secondary: #737373;
+  --accent: #404040;
+  --border: #e5e5e5;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #ffffff;
+    --secondary: #a3a3a3;
+    --accent: #d4d4d4;
+    --border: #262626;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif; /* Usiamo Inter che abbiamo già importato */
+}
+
+/* Aggiungiamo alcune utility classes */
+@layer components {
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .primary-button {
+    @apply px-8 py-4 bg-[var(--primary)] text-[var(--background)] hover:opacity-90 transition duration-200;
+  }
+  
+  .secondary-button {
+    @apply px-8 py-4 bg-transparent border border-[var(--primary)] text-[var(--primary)] hover:bg-[var(--primary)]/5 transition duration-200;
+  }
 }
