@@ -1,17 +1,24 @@
-# Forza il linguaggio per file TypeScript
-*.ts linguaggio=TypeScript
-*.tsx linguaggio=TypeScript
-
-# Forza il linguaggio per file JavaScript
+# JavaScript e TypeScript
 *.js linguaggio=JavaScript
-*.jsx linguaggio=JavaScript
+*.jsx linguaggio=JavaScript  # React con JavaScript
+*.ts linguaggio=TypeScript
+*.tsx linguaggio=TypeScript  # React con TypeScript
 
-# Ignora file che non vuoi contare
-*.py linguaggio=ignora
-*.pyc linguaggio=ignora
-*.css linguaggio=ignora
-*.html linguaggio=ignora
+# Vue.js
+*.vue linguaggio=Vue
 
-# Ignora cartelle che non contengono codice rilevante
+# CSS e Tailwind
+*.css linguaggio=CSS
+*.scss linguaggio=CSS
+*.tailwind.css linguaggio=CSS
+
+# Configurazioni React e Vite
+vite.config.js linguaggio=JavaScript
+*.env linguaggio=ignora
+*.config.js linguaggio=JavaScript
+
+# Ignora cartelle non rilevanti
 node_modules/* linguaggio=ignora
+dist/* linguaggio=ignora
+build/* linguaggio=ignora
 public/* linguaggio=ignora
