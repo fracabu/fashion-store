@@ -1,0 +1,17 @@
+# Forza il linguaggio per file TypeScript
+*.ts linguaggio=TypeScript
+*.tsx linguaggio=TypeScript
+
+# Forza il linguaggio per file JavaScript
+*.js linguaggio=JavaScript
+*.jsx linguaggio=JavaScript
+
+# Ignora file che non vuoi contare
+*.py linguaggio=ignora
+*.pyc linguaggio=ignora
+*.css linguaggio=ignora
+*.html linguaggio=ignora
+
+# Ignora cartelle che non contengono codice rilevante
+node_modules/* linguaggio=ignora
+public/* linguaggio=ignora
