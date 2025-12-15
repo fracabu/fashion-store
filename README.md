@@ -1,45 +1,91 @@
-# fashion-store
+<h1 align="center">Fashion Store</h1>
+<h3 align="center">Modern E-Commerce Storefront</h3>
 
-A modern and responsive e-commerce storefront application built with Next.js, designed to provide a seamless shopping experience for fashion products. This project leverages contemporary web technologies to deliver a fast, intuitive, and visually appealing online store.
+<p align="center">
+  <em>Responsive fashion shopping experience with Next.js</em>
+</p>
 
-## Key Features
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Fashion-E91E63?style=flat-square" alt="Fashion" />
+</p>
 
-*   **Modern and Responsive Design**: Enjoy a sleek, user-friendly interface that adapts seamlessly to various screen sizes.
-*   **Smooth UI Animations**: Enhanced user experience with fluid transitions and interactive elements powered by Framer Motion.
-*   **Component-Driven Architecture**: Built with reusable and customizable UI components from Shadcn UI for consistency and maintainability.
-*   **Optimized Performance**: Leverages Next.js for server-side rendering and static site generation, ensuring fast load times and improved SEO.
+<p align="center">
+  :gb: <a href="#english">English</a> | :it: <a href="#italiano">Italiano</a>
+</p>
+
+---
+
+<a name="english"></a>
+## :gb: English
+
+### Overview
+
+A modern, responsive fashion e-commerce storefront built with Next.js. Features smooth UI animations and component-driven design.
+
+### Features
+
+- **Product Catalog** - Browse fashion items
+- **Shopping Cart** - Add and manage items
+- **Smooth Animations** - Polished UI transitions
+- **Component Design** - Reusable components
+- **Responsive** - Mobile and desktop optimized
+
+### Quick Start
+
+```bash
+git clone https://github.com/fracabu/fashion-store.git
+cd fashion-store
+npm install
+npm run dev
+```
+
+Access at `http://localhost:3000`
+
+---
+
+<a name="italiano"></a>
+## :it: Italiano
+
+### Panoramica
+
+Storefront e-commerce moda moderno e responsive costruito con Next.js. Animazioni UI fluide e design component-driven.
+
+### Funzionalita
+
+- **Catalogo Prodotti** - Sfoglia articoli moda
+- **Carrello** - Aggiungi e gestisci articoli
+- **Animazioni Fluide** - Transizioni UI raffinate
+- **Design Componenti** - Componenti riutilizzabili
+- **Responsive** - Ottimizzato mobile e desktop
+
+### Avvio Rapido
+
+```bash
+git clone https://github.com/fracabu/fashion-store.git
+cd fashion-store
+npm install
+npm run dev
+```
+
+Accedi su `http://localhost:3000`
+
+---
 
 ## Tech Stack
 
-*   **Framework**: Next.js 15
-*   **UI Library**: React 19
-*   **Language**: TypeScript
-*   **Styling**: Tailwind CSS, PostCSS
-*   **Animations**: Framer Motion
-*   **UI Components**: Shadcn UI
-*   **Icons**: Lucide React
+- Next.js, TypeScript, React
 
-## Getting Started
+## License
 
-Follow these steps to get the project up and running on your local machine.
+MIT
 
-### Prerequisites
+---
 
-Make sure you have Node.js (v18 or higher recommended) and npm installed.
-
-### Installation
-
-1.  **Navigate into the project directory**:
-    ```bash
-    cd fashion-store
-    ```
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
-3.  **Run the development server**:
-    ```bash
-    npm run dev
-    ```
-
-    The application will be accessible at `http://localhost:3000`.
+<p align="center">
+  <a href="https://github.com/fracabu">
+    <img src="https://img.shields.io/badge/Made_by-fracabu-8B5CF6?style=flat-square" alt="Made by fracabu" />
+  </a>
+</p>
